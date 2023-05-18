@@ -1,5 +1,5 @@
-import { NavLink } from "react-router-dom";
 import "./Navigation.css";
+import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
   const items = [
@@ -18,7 +18,6 @@ const Navigation = () => {
               <NavLink
                 to={item.to}
                 className={(navData) => (navData.isActive ? "activeLink" : "")}
-                exact={item.exact || false}
               >
                 {item.name}
               </NavLink>
