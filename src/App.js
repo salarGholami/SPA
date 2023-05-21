@@ -8,9 +8,9 @@ function App() {
     <div className="App">
       <Layout>
         <Routes>
-          {routers.map((route, indedx) => (
-            <Route {...route} key={indedx} />
-          ))}
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/profile" element={<Profile />} />
         </Routes>
       </Layout>
     </div>
