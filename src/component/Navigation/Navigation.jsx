@@ -6,7 +6,8 @@ const Navigation = () => {
   const items = [
     { name: "Home", to: "/" },
     { name: "AboutUs", to: "/about-us" },
-    { name: "Profile", to: "/profile" },
+    { name: "Profile", to: "/profile" }, 
+    { name: "Blogs", to: "/blogs" }, 
   ];
 
   return (
