@@ -1,23 +1,25 @@
 import { NavLink } from "react-router-dom";
-import "./Navigation.css";
+import style from "./Navigation.module.css";
 
 const Navigation = () => {
   const items = [
-    { name: "Home", to: "/", exact: true },
+    { name: "Home", to: "/" },
     { name: "AboutUs", to: "/about-us" },
     { name: "Profile", to: "/profile" },
   ];
 
   return (
     <nav>
-      <div className="blurNav"></div>
+      <div className={style.blurNav}></div>
       <ul>
         {items.map((item) => {
           return (
             <li key={item.to}>
               <NavLink
                 to={item.to}
-                className={(navData) => (navData.isActive ? "activeLink" : "")}
+                className={(navData) =>
+                  navData.isActive ? style.activeLink : ""
+                }
               >
                 {item.name}
               </NavLink>
