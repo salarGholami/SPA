@@ -8,6 +8,7 @@ const Navigation = () => {
     { name: "AboutUs", to: "/about-us" },
     { name: "Profile", to: "/profile" }, 
     { name: "Blogs", to: "/blogs" }, 
+    { name: "Post", to: "/post" }, 
   ];
 
   return (
