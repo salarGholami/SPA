@@ -9,7 +9,7 @@ import Profile from "./pages/Profile";
 const routers = [
   { path: "/", element: <HomePage /> },
   { path: "/about-us", element: <AboutUs /> },
-  { path: "/profile", element: <Profile /> },
+  { path: "/profile/*", element: <Profile /> },
   { path: "/blogs", element: <BlogPage /> },
   { path: "/blogs/:id", element: <Blog /> },
   { path: "/post/:id([0-9]+)?", element: <PostPage /> },

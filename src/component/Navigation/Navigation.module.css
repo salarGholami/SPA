@@ -11,7 +11,7 @@ nav {
   z-index: -1;
 }
 
-ul {
+nav ul {
   display: flex;
   justify-content: center;
   padding: 1rem 2rem;
@@ -19,14 +19,14 @@ ul {
   z-index: 1;
 }
 
-a {
+nav a {
   color: #09ff0090;
   text-decoration: none;
   margin: 1rem 2rem;
   letter-spacing: 1.25px;
 }
 
-a:hover {
+nav a:hover {
   color: #09ff00;
 }
 

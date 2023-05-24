@@ -9,6 +9,33 @@ body {
   color: #c2defc;
 }
 
+li {
+  list-style-type: none;
+}
+
+a {
+  color: #09ff0090;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #09ff00;
+}
+
+aside {
+  margin-top: 1rem;
+  background-color: #60d79e21;
+  width: 100%;
+}
+
+aside ul {
+  display: flex;
+}
+
+aside li {
+  padding: 1rem;
+}
+
 footer {
   background-color: #484a49;
   position: absolute;
